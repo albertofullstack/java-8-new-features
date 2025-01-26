@@ -7,7 +7,7 @@ public class SquareDemo {
 
   public static void main(String[] args) {
     SquareInt squareInt = x -> x * x;
-    System.out.printf("%s %s%n", "with lambda exp: ", squareInt.squareIt(2));
-    System.out.printf("%s %s%n", "with lambda exp: ", squareInt.squareIt(5));
+    System.out.printf("%s %s%n", "with lambda exp: ", squareInt.squareIt(10));
+    System.out.printf("%s %s%n", "with lambda exp: ", squareInt.squareIt(50));
   }
 }
