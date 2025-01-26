@@ -1,6 +1,6 @@
 package com.java.eight.features.functionalinterfaces.nolambda;
 
-public class Demo implements Interf {
+public class GetLenghtDemo implements GetLenghtInterf {
 
   @Override
   public int getLenght(String s) {

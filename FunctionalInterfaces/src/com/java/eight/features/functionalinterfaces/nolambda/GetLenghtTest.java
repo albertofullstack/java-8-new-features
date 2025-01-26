@@ -1,10 +1,10 @@
-package com.java.eight.features.functionalinterfaces.lambda;
+package com.java.eight.features.functionalinterfaces.nolambda;
 
-public class Test {
+public class GetLenghtTest {
 
   public static void main(String[] args) {
 
-    Interf i = String::length;
+    GetLenghtInterf i = new GetLenghtDemo();
     System.out.println(i.getLenght("Hello"));
     System.out.println(i.getLenght("without Lambda"));
   }
