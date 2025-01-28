@@ -1,12 +1,12 @@
 package com.java.eight.features.functionalinterfaces.anonymousclasses;
 
-public class InterfaceClassDemo {
+public class InterfaceDemo {
 
   // this class cannot be used with lambda
   // anonymous class is in a superior level compared to lambda expressions
   // lambda only can be used with functional interfaces (only one abstract method)
 
-  public interface InterfaceDemo {
+  public interface InterfaceDemo1 {
     public void m1();
     public void m2();
     public void m3();
@@ -14,7 +14,7 @@ public class InterfaceClassDemo {
 
   public static void main(String[] args) {
 
-    InterfaceDemo test = new InterfaceDemo() {
+    InterfaceDemo1 test = new InterfaceDemo1() {
       @Override
       public void m1() {
 
