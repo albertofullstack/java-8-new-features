@@ -7,5 +7,10 @@ public class StaticInterfDemo implements StaticInterf {
 //    inter.m1();
 //    StaticInterfDemo.m1();
     StaticInterf.m1();
+    StaticInterfDemo.m1();
+  }
+
+  private static void m1() {
+    System.out.println("I am m1 method in the implementation class!!!");
   }
 }
