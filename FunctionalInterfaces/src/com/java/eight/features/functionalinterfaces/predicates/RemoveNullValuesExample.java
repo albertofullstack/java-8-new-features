@@ -10,7 +10,7 @@ public class RemoveNullValuesExample {
     Predicate<String> notNullOrEmptyStr = s -> s != null && !s.trim().isEmpty();
     List<String> notNullOrEmptyStrList = new ArrayList<>();
     for (String name: names) {
-      if (notNullOrEmptyStr.negate().test(name)) {
+      if (notNullOrEmptyStr.test(name)) {
         notNullOrEmptyStrList.add(name);
       }
     }
