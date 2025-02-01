@@ -30,6 +30,8 @@ public class EmployeeSalaryIncreaseDemo {
         employeesSalaryIncrease.add(employee);
       }
     }
+    System.out.println("Employees after incrase");
+    System.out.println(employeeList);
     System.out.println("Employees with salary increase");
     System.out.println(employeesSalaryIncrease);
   }
