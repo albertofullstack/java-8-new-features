@@ -14,6 +14,10 @@ public class Employee {
     this.city = city;
   }
 
+  public void setSalary(double salary) {
+    this.salary = salary;
+  }
+
   @Override
   public String toString() {
     return String.format("(%s,%s,%.2f,%s)", this.name, this.designation, this.salary, this.city);
