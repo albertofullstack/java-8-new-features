@@ -6,6 +6,8 @@ import java.util.function.Predicate;
 
 public class EmployeeDemo {
 
+  public static final String DEVELOPER = "Developer";
+
   public static void main(String[] args) {
 
     List<Employee> employeeList = new ArrayList<>();
@@ -41,9 +43,9 @@ public class EmployeeDemo {
     employeeList.add(new Employee("Toño", "Manager", 1035434.45, "Linares"));
     employeeList.add(new Employee("Maria", "Lead", 934434.45, "Madrid"));
     employeeList.add(new Employee("Ana", "Lead", 834434.45, "Calabria"));
-    employeeList.add(new Employee("Roberto", "Developer", 93443.45, "Ibiza"));
-    employeeList.add(new Employee("Alvaro", "Developer", 83443.45, "Murcia"));
-    employeeList.add(new Employee("Daniel", "Developer", 21443.45, "Almeria"));
+    employeeList.add(new Employee("Roberto", DEVELOPER, 93443.45, "Ibiza"));
+    employeeList.add(new Employee("Alvaro", DEVELOPER, 83443.45, "Murcia"));
+    employeeList.add(new Employee("Daniel", DEVELOPER, 21443.45, "Almeria"));
     employeeList.add(new Employee("Mopongo", "Cleaner", 254.45, "Nigeria"));
   }
 
