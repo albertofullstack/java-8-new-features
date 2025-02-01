@@ -12,12 +12,12 @@ public class EmployeeDemo {
     populate(employeeList);
     System.out.println(employeeList);
 
-    Predicate<Employee> p1 = employee -> ("manager").equals(employee.getDesignation().toLowerCase());
+    Predicate<Employee> p1 = employee -> ("manager").equalsIgnoreCase(employee.getDesignation());
     System.out.println();
     System.out.println("Managers information");
     display(p1, employeeList);
     System.out.println("Employees from Madrid");
-    Predicate<Employee> p2 = employee -> ("madrid").equals(employee.getCity().toLowerCase());
+    Predicate<Employee> p2 = employee -> ("madrid").equalsIgnoreCase(employee.getCity());
     display(p2, employeeList);
     System.out.println("Employees whose salary < 20000");
     Predicate<Employee> p3 = employee -> employee.getSalary() < 20000;
