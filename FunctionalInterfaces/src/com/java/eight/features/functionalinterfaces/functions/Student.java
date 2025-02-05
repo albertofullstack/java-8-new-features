@@ -17,4 +17,12 @@ public class Student {
   public Double getMark() {
     return this.mark;
   }
+
+  @Override
+  public String toString() {
+    return "Student{" +
+        "name='" + name + '\'' +
+        ", mark=" + mark +
+        '}';
+  }
 }
