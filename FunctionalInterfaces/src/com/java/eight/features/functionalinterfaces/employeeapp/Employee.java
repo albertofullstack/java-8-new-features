@@ -7,6 +7,11 @@ public class Employee {
   private double salary;
   private String city;
 
+  public Employee(String name, double salary) {
+    this.name = name;
+    this.salary = salary;
+  }
+
   public Employee(String name, String designation, double salary, String city) {
     this.name = name;
     this.designation = designation;
