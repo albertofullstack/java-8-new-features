@@ -2,6 +2,7 @@ package com.java.eight.features.functionalinterfaces.primitiveinterfaces;
 
 import java.util.Random;
 import java.util.function.IntSupplier;
+import java.util.function.IntUnaryOperator;
 
 public class PrimitiveSupplierExample {
 
