@@ -1,7 +1,5 @@
 package com.java.eight.features.functionalinterfaces.methodreference;
 
-import com.java.eight.features.functionalinterfaces.anonymousclasses.InterfaceDemo;
-
 public class ConstructorReferenceDemo {
 
   public ConstructorReferenceDemo() {
@@ -9,6 +7,7 @@ public class ConstructorReferenceDemo {
   }
 
   interface Interf {
+
     ConstructorReferenceDemo get();
   }
 
