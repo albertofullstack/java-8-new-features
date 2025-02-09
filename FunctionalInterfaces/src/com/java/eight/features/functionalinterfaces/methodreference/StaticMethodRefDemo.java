@@ -1,6 +1,6 @@
 package com.java.eight.features.functionalinterfaces.methodreference;
 
-public class MethodRefDemo {
+public class StaticMethodRefDemo {
 
   public interface Interf {
     void m1();
@@ -11,7 +11,7 @@ public class MethodRefDemo {
   }
 
   public static void main(String[] args) {
-    Interf i1 = MethodRefDemo::m2;
+    Interf i1 = StaticMethodRefDemo::m2;
     i1.m1();
   }
 
